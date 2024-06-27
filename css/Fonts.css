@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Nerko One';
+    src: url('../Fonts/NerkoOne-Regular.eot');
+    src: url('../Fonts/?#iefix') format('embedded-opentype'),
+        url('../Fonts/NerkoOne-Regular.woff2') format('woff2'),
+        url('../Fonts/NerkoOne-Regular.woff') format('woff'),
+        url('../Fonts/NerkoOne-Regular.ttf') format('truetype'),
+        url('../Fonts/NerkoOne-Regular.svg#NerkoOne-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins-Bold.eot');
+    src: url('../Fonts/?#iefix') format('embedded-opentype'),
+        url('../Fonts/Poppins-Bold.woff2') format('woff2'),
+        url('../Fonts/Poppins-Bold.woff') format('woff'),
+        url('../Fonts/Poppins-Bold.ttf') format('truetype'),
+        url('../Fonts/Poppins-Bold.svg#Poppins-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+ /* Had a problem here to,Text would show up bold italic Without adding this font here */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins-Italic.eot');
+    src: url('../Fonts/?#iefix') format('embedded-opentype'),
+        url('../Fonts/Poppins-Italic.woff2') format('woff2'),
+        url('../Fonts/Poppins-Italic.woff') format('woff'),
+        url('../Fonts/Poppins-Italic.ttf') format('truetype'),
+        url('../Fonts/Poppins-Italic.svg#Poppins-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
